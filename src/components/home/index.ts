@@ -1,0 +1,10 @@
+export { BenefitsSection } from "./BenefitsSection";
+export { ClaimsSection } from "./ClaimsSection";
+export { ConsumptionSection } from "./ConsumptionSection";
+export { FaqSection } from "./FaqSection";
+export { FinalCtaSection } from "./FinalCtaSection";
+export { HeroSection } from "./HeroSection";
+export { ProcessSection } from "./ProcessSection";
+export { SafetySection } from "./SafetySection";
+export { TestimonialsSection } from "./TestimonialsSection";
+export { TransparencySection } from "./TransparencySection";
