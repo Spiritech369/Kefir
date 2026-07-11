@@ -34,6 +34,9 @@ export function ProductImage({
           priority={priority}
           sizes={sizes}
           src={src}
+          // The generated WebP files are already compressed. This also keeps the
+          // local preview independent from Cloudflare's optional IMAGES binding.
+          unoptimized
         />
       ) : (
         <div className="absolute inset-0 grid place-items-center p-6 text-center text-leaf-dark">
@@ -46,4 +49,3 @@ export function ProductImage({
     </div>
   );
 }
-

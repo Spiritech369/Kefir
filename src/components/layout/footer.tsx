@@ -102,7 +102,7 @@ export function Footer() {
         <div className="site-container flex flex-col gap-5 py-7 text-xs text-milk/58 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex flex-wrap gap-x-5 gap-y-3">
             {legalLinks.map((link) => (
-              <Link className="rounded transition hover:text-white" href={link.href} key={link.href}>
+              <Link className="rounded transition hover:text-white" href={link.href} key={`${link.href}-${link.label}`}>
                 {link.label}
               </Link>
             ))}
