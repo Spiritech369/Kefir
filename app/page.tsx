@@ -8,7 +8,6 @@ import {
   ProcessSection,
   SafetySection,
   TestimonialsSection,
-  TransparencySection,
 } from "@/src/components/home";
 import { ProductsSection } from "@/src/components/products/products-section";
 import { siteConfig } from "@/src/config/site";
@@ -37,7 +36,6 @@ export default function HomePage() {
       <BenefitsSection />
       <ProductsSection />
       <ProcessSection />
-      <TransparencySection />
       <ConsumptionSection />
       <ClaimsSection />
       <SafetySection />
@@ -47,4 +45,3 @@ export default function HomePage() {
     </>
   );
 }
-
