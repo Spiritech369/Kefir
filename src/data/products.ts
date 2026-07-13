@@ -57,7 +57,7 @@ export const productCatalog = [
     ],
     handling: refrigeratedHandling,
     badge: "Más vendido",
-    featured: true,
+    featured: false,
     status: "active",
     inventory: { tracked: true, quantity: 24, isDemo: true },
     transparency: {
@@ -117,6 +117,7 @@ export const productCatalog = [
     ],
     handling: refrigeratedHandling,
     badge: "Mejor valor",
+    featured: true,
     status: "active",
     inventory: { tracked: true, quantity: 16, isDemo: true },
     transparency: {

@@ -45,7 +45,7 @@ describe("WhatsApp order message", () => {
     const message = buildWhatsAppMessage(order);
 
     expect(message).toContain(
-      "Hola, quiero realizar el siguiente pedido en Kéfir Vivo:",
+      "Hola, quiero realizar el siguiente pedido en KEFIRA:",
     );
     expect(message).toContain(
       "2 × Kéfir natural, 500 ml — $170 MXN",
