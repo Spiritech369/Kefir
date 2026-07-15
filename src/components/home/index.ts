@@ -1,4 +1,5 @@
 export { BenefitsSection } from "./BenefitsSection";
+export { BrandStorySection } from "./BrandStorySection";
 export { ClaimsSection } from "./ClaimsSection";
 export { ConsumptionSection } from "./ConsumptionSection";
 export { FaqSection } from "./FaqSection";

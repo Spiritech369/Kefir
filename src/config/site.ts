@@ -1,5 +1,9 @@
 const configuredWhatsAppNumber = (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "528184698543").replace(/\D/g, "");
 const configuredSiteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://kefir-green.vercel.app").replace(/\/$/, "");
+const whatsappIntroMessage = "Hola, quiero información sobre el kéfir artesanal KEFIRA.";
+const configuredWhatsAppHref = configuredWhatsAppNumber
+  ? `https://wa.me/${configuredWhatsAppNumber}?text=${encodeURIComponent(whatsappIntroMessage)}`
+  : "#contacto";
 
 export const siteConfig = {
   name: "KEFIRA",
@@ -17,7 +21,7 @@ export const siteConfig = {
   announcement: {
     text: "Hecho en Monterrey, N.L. · Mantener refrigerado de 2 °C a 6 °C",
     linkLabel: "Pedir por WhatsApp",
-    href: "https://wa.me/528184698543?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20k%C3%A9fir%20artesanal%20KEFIRA.",
+    href: configuredWhatsAppHref,
   },
   navigation: [
     { label: "Inicio", href: "#inicio" },

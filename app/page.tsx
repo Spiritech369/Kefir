@@ -1,5 +1,6 @@
 import {
   BenefitsSection,
+  BrandStorySection,
   ClaimsSection,
   ConsumptionSection,
   FaqSection,
@@ -33,6 +34,7 @@ export default function HomePage() {
         type="application/ld+json"
       />
       <HeroSection />
+      <BrandStorySection />
       <BenefitsSection />
       <ProductsSection />
       <ProcessSection />

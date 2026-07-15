@@ -27,7 +27,7 @@ export const productCatalog = [
     priceIsDemo: true,
     image: {
       src: "/images/kefir-natural.webp",
-      alt: "Botella de kéfir natural Kéfir Vivo de 500 mililitros",
+      alt: "Botella de kéfir natural KEFIRA de 500 mililitros",
       width: 900,
       height: 900,
     },
@@ -87,7 +87,7 @@ export const productCatalog = [
     priceIsDemo: true,
     image: {
       src: "/images/kefir-natural.webp",
-      alt: "Botella familiar de kéfir natural Kéfir Vivo de un litro",
+      alt: "Botella familiar de kéfir natural KEFIRA de un litro",
       width: 900,
       height: 900,
     },
